@@ -1,0 +1,114 @@
+body{
+    font-family: sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+#principal{
+    width: 1024px;
+    margin: 0px auto;
+}
+
+.header_top{
+    height: 70px;
+    background: #162028;
+}
+
+.logotipo{
+    margin-top: 10px;
+    margin-right: 0px;
+    margin-left: 900px;
+    margin-bottom: 0px;
+    height: 50px;
+    width 100px;
+}
+
+.header_nav{
+    position: absolute;
+    top: 10px;
+    height: 10px;
+}
+
+.header_nav li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 25px 0 0;
+}
+
+.header_nav a{
+    color: #425564;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    letter-spacing: 4px;
+    transition: color 0.3s linear;
+}
+
+.header_nav a:hover{
+    color: white;
+}
+
+.titulo{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 430px;
+    text-decoration: uppercase;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.formlogin{
+    width: 250px;
+    margin: 10px auto 0px;
+}
+
+.formlogin label{
+    margin-top: 15px;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.formlogin legend{
+    color: white;
+    background: #162028;
+    text-transform: uppercase;
+    font-size: 16px;
+    letter-spacing: 4px;
+    padding: 10px;
+}
+
+#user, #pass, .btn{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 15px;
+    font-size: 18px;
+    border: 20px;  
+}
+
+#user:focus, #pass:focus{
+    background: white;
+}
+
+#user, #pass{
+    background: white;
+}
+
+.btn{
+    margin-top: 15px;
+    background: #162028;
+    color: white;
+}
+
+.rodape{
+    position: absolute;
+    padding: 10px;
+    background: #162028;
+    width: 1000px;
+    margin: 40px 0 0 450px;
+}
+
+.rodolfo{
+    color: white;
+    text-align: center
+}
